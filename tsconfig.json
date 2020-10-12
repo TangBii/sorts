@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "module": "CommonJS",
+      "strict": true,
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true,
+      "outDir": "./build",
+  },
+  "include": [
+    "src/**/*", "src/01-bubbleSort.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
